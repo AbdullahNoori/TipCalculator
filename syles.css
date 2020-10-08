@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to bottom right, #3388cc, #33cc88);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.app {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    background: #FFF;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0, 0.2);
+
+
+&:after {
+    content: '';
+    display: block;
+    padding-top: calc(100%/ (3/4))
+ }
+}
+
+header {
+    background-color: #33CCB;
+    padding: 10px 15px;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0, 0.2);
+
+h1 {
+color: #FFF;
+text-transform: uppercase;
+font-size: 24px;
+text-align: center;
+
+}
+
+
